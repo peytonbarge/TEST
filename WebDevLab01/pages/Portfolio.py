@@ -63,13 +63,13 @@ def links_section():
     unsafe_allow_html=True
 )
     st.sidebar.text("Connect with me on LinkdIn")
-    linkedin_link = f'<a href = "{info.my_linkedin_url}"><img src = "{info.linkedin_image_url}" alt = "LinkedIn" width = "75" height = "75" ></a>'
+    linkedin_link = f'<a href = "{http://www.linkedin.com/in/peyton-barge-3a66a4374}"><img src = "{https://content.linkedin.com/content/dam/me/business/en-us/amp/brand-site/v2/bg/LI-Bug.svg.original.svg}" alt = "LinkedIn" width = "75" height = "75" ></a>'
     st.sidebar.markdown(linkedin_link, unsafe_allow_html = True)
     st.sidebar.text("Follow Me on Instagram!")
-    github_link = f'<a href ="{info.my_github_url}"><img src="{info.github_image_url}" alt = "Github" width = "65" height="65"></a>'
+    github_link = f'<a href ="{https://www.instagram.com/pbarge323?igsh=YjF5c3NxczhkYXJh&utm_source=qr}"><img src="{https://th.bing.com/th/id/ODF.Tw-tjGfaKLIkitkJNlB7SA?w=32&h=32&qlt=90&pcl=fffffc&o=6&pid=1.2}" alt = "Github" width = "65" height="65"></a>'
     st.sidebar.markdown(github_link, unsafe_allow_html = True)
     st.sidebar.text("Or email me!")
-    email_html = f'<a href="mailto:{info.my_email_address}"><img src="{info.email_image_url}" alt = "Email" width="75" height="75"></a>'
+    email_html = f'<a href="mailto:{pbarge3@gatech.edu}"><img src="{https://logowik.com/content/uploads/images/513_email.jpg}" alt = "Email" width="75" height="75"></a>'
     st.sidebar.markdown(email_html, unsafe_allow_html=True)
 links_section()
 
@@ -124,11 +124,14 @@ def project_section(projects_data):
     """,
     unsafe_allow_html=True
 )
+    projects_data = {
+    "Expert Napper": "Could nap multiple times a day, favorite time is 3pm-5pm",
+}
     for project_name, project_description in projects_data.items():
         expander= st.expander(f"{project_name}")
         expander.write(project_description)
     st.write('🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸')
-project_section(info.projects_data)
+project_section(projects_data)
 
 #Skills
 
@@ -140,14 +143,23 @@ def skills_section(programming_data, spoken_data):
     unsafe_allow_html=True
 )
     st.subheader("Agree or am I crazy?")
+    programming_icons = {
+    "Pineapple belongs on pizza": "🍕",
+    "Socks shouldn't have to match": "🧦",
+    "Birds aren't real": "🐦",
+}
     for skill, percentage in programming_data.items():
-        st.write(f"{skill}{info.programming_icons.get(skill,'')}")
+        st.write(f"{skill}{programming_icons.get(skill,'')}")
         st.progress(percentage)
     st.subheader("Fun Facts")
     for spoken, proficiency in spoken_data.items():
-        st.write(f"{spoken}{info.spoken_icons.get(spoken,'')}: {proficiency}")
+        st.write(f"{spoken}{spoken_icons.get(spoken,'')}: {proficiency}")
 
     st.write('🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸')
-skills_section(info.programming_data, info.spoken_data)
+spoken_data = {
+    "1": "There are 5 Peytons before me (they are all boys)",
+    "2": "I am fluent in Spanish",
+    "3": "I am a quarter Vietnamese",
+skills_section(programming_data, spoken_data)
 
 
