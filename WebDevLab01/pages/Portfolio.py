@@ -162,7 +162,9 @@ def project_section(projects_data):
         expander= st.expander(f"{project_name}")
         expander.write(project_description)
     st.write('🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸')
-project_section(projects_data)
+project_section({
+    "Expert Napper": "Could nap multiple times a day, favorite time is 3pm-5pm",
+})
 
 #Skills
 
