@@ -168,6 +168,11 @@ project_section({
 
 #Skills
 
+spoken_icons = {"French": "🇫🇷",
+    "English": "🇬🇧",
+    "Spanish":"🇪🇸"
+}
+
 def skills_section(programming_data, spoken_data):
     st.markdown(
     """
