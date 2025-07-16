@@ -33,9 +33,9 @@ st.write("Welcome to my interactive website, a fun and personalized reflection o
 
 st.write('🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸')
 
-image_path = "images/homepage.jpg"
 
 
-st.image("images/homepage.jpg", caption="My favorite moments", use_container_width=True)
+
+st.image("images/jelly.jpg", caption="My favorite moments", use_container_width=True)
 
 st.write('🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸')
