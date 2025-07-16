@@ -100,7 +100,18 @@ def education_section(education_data, course_data):
         hide_index=True,        
         )
     st.write('🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸')
-education_section(info.education_data, info.course_data)
+education_section({
+    'Born': 'May 10, 2007 (age 18 years)',
+    'name': 'Peyton Kea Barge',
+    'Location': 'Atlanta, GA',
+    'Siblings and Pets': 'Abby, J, Ethel, Lucy(m. 2000 - 2014)',
+    'GPA': '4.0'
+},  {
+    "elem":["E. Rivers Elementary", "Located in Atlanta, GA", "Grades K-5"], 
+    "middle":["Sutton Middle School", "Located in Atlanta, GA", "Grades 6-7"], 
+    "High":["Rabun Gap Nacoochee School", "Located in Dillard, GA", "Grades 8-12"],
+    "college":["Georgia Tech", "Located in Atlanta, GA", "4 year institution"],
+    })
 
 #Professional Experience
 def experience_section(experience_data):
