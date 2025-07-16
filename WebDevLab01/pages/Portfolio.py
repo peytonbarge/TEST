@@ -31,8 +31,8 @@ def about_me_section():
     """,
     unsafe_allow_html=True
 )
-    st.image(info.profile_picture, width = 700)
-    st.write(info.about_me)
+    st.image("images/IMG_5696.jpeg", width = 700)
+    st.write("I'm Peyton Barge. I am an incoming freshman student at Georgia Tech from Atlanta. ")
     st.write('🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸')
 
 about_me_section()
