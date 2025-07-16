@@ -36,6 +36,6 @@ st.write('🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸�
 
 
 
-st.image("jelly.jpg", caption="My favorite moments", use_container_width=True)
+#st.image("jelly.jpg", caption="My favorite moments", use_container_width=True)
 
 st.write('🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸')
