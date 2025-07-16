@@ -123,7 +123,7 @@ def experience_section(experience_data):
 )
     for job_title,(job_description) in experience_data.items():
         expander= st.expander(f"{job_title}")
-        expander.image(image, width=250)
+        #expander.image(image, width=250)
         for bullet in job_description:
             expander.write(bullet)
 
