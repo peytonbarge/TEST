@@ -63,13 +63,13 @@ def links_section():
     unsafe_allow_html=True
 )
     st.sidebar.text("Connect with me on LinkdIn")
-    linkedin_link = f'<a href = "{http://www.linkedin.com/in/peyton-barge-3a66a4374}"><img src = "{https://content.linkedin.com/content/dam/me/business/en-us/amp/brand-site/v2/bg/LI-Bug.svg.original.svg}" alt = "LinkedIn" width = "75" height = "75" ></a>'
+    linkedin_link = f'<a href = "http://www.linkedin.com/in/peyton-barge-3a66a4374"><img src = "https://content.linkedin.com/content/dam/me/business/en-us/amp/brand-site/v2/bg/LI-Bug.svg.original.svg" alt = "LinkedIn" width = "75" height = "75" ></a>'
     st.sidebar.markdown(linkedin_link, unsafe_allow_html = True)
     st.sidebar.text("Follow Me on Instagram!")
     github_link = f'<a href ="https://www.instagram.com/pbarge323?igsh=YjF5c3NxczhkYXJh&utm_source=qr"><img src="https://th.bing.com/th/id/ODF.Tw-tjGfaKLIkitkJNlB7SA?w=32&h=32&qlt=90&pcl=fffffc&o=6&pid=1.2" alt = "Github" width = "65" height="65"></a>'
     st.sidebar.markdown(github_link, unsafe_allow_html = True)
     st.sidebar.text("Or email me!")
-    email_html = f'<a href="mailto:{pbarge3@gatech.edu}"><img src="{https://logowik.com/content/uploads/images/513_email.jpg}" alt = "Email" width="75" height="75"></a>'
+    email_html = f'<a href="mailto:{pbarge3@gatech.edu}"><img src="https://logowik.com/content/uploads/images/513_email.jpg" alt = "Email" width="75" height="75"></a>'
     st.sidebar.markdown(email_html, unsafe_allow_html=True)
 
 
