@@ -69,7 +69,8 @@ def links_section():
     github_link = f'<a href ="https://www.instagram.com/pbarge323?igsh=YjF5c3NxczhkYXJh&utm_source=qr"><img src="https://th.bing.com/th/id/ODF.Tw-tjGfaKLIkitkJNlB7SA?w=32&h=32&qlt=90&pcl=fffffc&o=6&pid=1.2" alt = "Github" width = "65" height="65"></a>'
     st.sidebar.markdown(github_link, unsafe_allow_html = True)
     st.sidebar.text("Or email me!")
-    email_html = f'<a href="mailto:{pbarge3@gatech.edu}"><img src="https://logowik.com/content/uploads/images/513_email.jpg" alt = "Email" width="75" height="75"></a>'
+    email_html = '<a href="mailto:pbarge3@gatech.edu"><img src="https://logowik.com/content/uploads/images/513_email.jpg" alt="Email" width="75" height="75"></a>'
+
     st.sidebar.markdown(email_html, unsafe_allow_html=True)
 
 
