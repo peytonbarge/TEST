@@ -121,7 +121,7 @@ def experience_section(experience_data):
     """,
     unsafe_allow_html=True
 )
-    for job_title,(job_description, image) in experience_data.items():
+    for job_title,(job_description) in experience_data.items():
         expander= st.expander(f"{job_title}")
         expander.image(image, width=250)
         for bullet in job_description:
