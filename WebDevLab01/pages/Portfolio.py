@@ -159,7 +159,7 @@ def skills_section(programming_data, spoken_data):
 spoken_data = {
     "1": "There are 5 Peytons before me (they are all boys)",
     "2": "I am fluent in Spanish",
-    "3": "I am a quarter Vietnamese",
+    "3": "I am a quarter Vietnamese",}
 skills_section(programming_data, spoken_data)
 
 
