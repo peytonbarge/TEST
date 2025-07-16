@@ -128,12 +128,24 @@ def experience_section(experience_data):
             expander.write(bullet)
 
         st.write('🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸')
+
 experience_section({
-    "JOBS": (["THE SHAK", "- Worked in an Ice Cream shop on the lake",
-                                                                          "- Responsible for training trainees", "- Responsible for keeping up with profit"],"images/IMG_0350.jpg"),
-    "HI-UP at Rockbrook Camp for Girls":(["HI-UP","- Leadership role at a sleep away camp in Brevard, NC",
-                                                           "- Tasked with setting and scraping meals as well as babysitting younger campers"],"images/IMG_4567.jpg"),
-    "Piano":(["- 7 years of piano, it is my favorite pass time"],"images/IMG_9002.jpeg"})
+    "JOBS": (
+        ["THE SHAK", "- Worked in an Ice Cream shop on the lake",
+         "- Responsible for training trainees", "- Responsible for keeping up with profit"],
+        "images/IMG_0350.jpg"
+    ),
+    "HI-UP at Rockbrook Camp for Girls": (
+        ["HI-UP", "- Leadership role at a sleep away camp in Brevard, NC",
+         "- Tasked with setting and scraping meals as well as babysitting younger campers"],
+        "images/IMG_4567.jpg"
+    ),
+    "Piano": (
+        ["- 7 years of piano, it is my favorite pass time"],
+        "images/IMG_9002.jpeg"
+    )
+})
+
 
 # Project Section
 def project_section(projects_data):
