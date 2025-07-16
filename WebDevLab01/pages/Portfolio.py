@@ -193,6 +193,12 @@ spoken_data = {
     "1": "There are 5 Peytons before me (they are all boys)",
     "2": "I am fluent in Spanish",
     "3": "I am a quarter Vietnamese",}
+
+programming_data = {
+    "Pineapple belongs on pizza": 95,
+    "Socks shouldn't have to match": 70,
+    "Birds aren't real": 40,
+}
 skills_section(programming_data, spoken_data)
 
 
